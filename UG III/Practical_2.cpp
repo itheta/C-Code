@@ -38,7 +38,7 @@ main ()
 /* WRITING THE OUTPUT IN A FILE */
 
 	FILE *fp;
-	fp=fopen("practical_2.dat","w");
+	fp=fopen("practical_2","w");
 	fprintf(fp,"The coefficient of correlation for the given data set is %lf",r);
 	fclose(fp);
 }
